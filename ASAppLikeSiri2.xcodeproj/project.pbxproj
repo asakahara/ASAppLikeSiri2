@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52A76D1F8C3D4A91A7A726B5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14076617C685412DA4BB781F /* libPods.a */; };
 		A73960281865DF26003BFA9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73960271865DF26003BFA9E /* Foundation.framework */; };
 		A739602A1865DF26003BFA9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73960291865DF26003BFA9E /* CoreGraphics.framework */; };
 		A739602C1865DF26003BFA9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A739602B1865DF26003BFA9E /* UIKit.framework */; };
@@ -14,13 +15,15 @@
 		A73960341865DF26003BFA9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73960331865DF26003BFA9E /* main.m */; };
 		A73960381865DF26003BFA9E /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73960371865DF26003BFA9E /* ASAppDelegate.m */; };
 		A739603B1865DF26003BFA9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73960391865DF26003BFA9E /* Main.storyboard */; };
-		A739603E1865DF26003BFA9E /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A739603D1865DF26003BFA9E /* ASViewController.m */; };
+		A739603E1865DF26003BFA9E /* ASQAndAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A739603D1865DF26003BFA9E /* ASQAndAViewController.m */; };
 		A73960401865DF26003BFA9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A739603F1865DF26003BFA9E /* Images.xcassets */; };
 		A73960471865DF26003BFA9E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73960461865DF26003BFA9E /* XCTest.framework */; };
 		A73960481865DF26003BFA9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73960271865DF26003BFA9E /* Foundation.framework */; };
 		A73960491865DF26003BFA9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A739602B1865DF26003BFA9E /* UIKit.framework */; };
 		A73960511865DF26003BFA9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A739604F1865DF26003BFA9E /* InfoPlist.strings */; };
 		A73960531865DF26003BFA9E /* ASAppLikeSiri2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73960521865DF26003BFA9E /* ASAppLikeSiri2Tests.m */; };
+		A739605D1865DFAC003BFA9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A739605C1865DFAC003BFA9E /* AVFoundation.framework */; };
+		A73960621865E01F003BFA9E /* ASQAndAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A73960611865E01F003BFA9E /* ASQAndAManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14076617C685412DA4BB781F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71C717F501C48D6943D077F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A73960241865DF26003BFA9E /* ASAppLikeSiri2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAppLikeSiri2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73960271865DF26003BFA9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A73960291865DF26003BFA9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +50,17 @@
 		A73960361865DF26003BFA9E /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
 		A73960371865DF26003BFA9E /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
 		A739603A1865DF26003BFA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A739603C1865DF26003BFA9E /* ASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
-		A739603D1865DF26003BFA9E /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
+		A739603C1865DF26003BFA9E /* ASQAndAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASQAndAViewController.h; sourceTree = "<group>"; };
+		A739603D1865DF26003BFA9E /* ASQAndAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASQAndAViewController.m; sourceTree = "<group>"; };
 		A739603F1865DF26003BFA9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A73960451865DF26003BFA9E /* ASAppLikeSiri2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAppLikeSiri2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73960461865DF26003BFA9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A739604E1865DF26003BFA9E /* ASAppLikeSiri2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASAppLikeSiri2Tests-Info.plist"; sourceTree = "<group>"; };
 		A73960501865DF26003BFA9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A73960521865DF26003BFA9E /* ASAppLikeSiri2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppLikeSiri2Tests.m; sourceTree = "<group>"; };
+		A739605C1865DFAC003BFA9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A73960601865E01F003BFA9E /* ASQAndAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASQAndAManager.h; sourceTree = "<group>"; };
+		A73960611865E01F003BFA9E /* ASQAndAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASQAndAManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A739605D1865DFAC003BFA9E /* AVFoundation.framework in Frameworks */,
 				A739602A1865DF26003BFA9E /* CoreGraphics.framework in Frameworks */,
 				A739602C1865DF26003BFA9E /* UIKit.framework in Frameworks */,
 				A73960281865DF26003BFA9E /* Foundation.framework in Frameworks */,
+				52A76D1F8C3D4A91A7A726B5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +96,7 @@
 				A739604C1865DF26003BFA9E /* ASAppLikeSiri2Tests */,
 				A73960261865DF26003BFA9E /* Frameworks */,
 				A73960251865DF26003BFA9E /* Products */,
+				A71C717F501C48D6943D077F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +112,12 @@
 		A73960261865DF26003BFA9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A739605C1865DFAC003BFA9E /* AVFoundation.framework */,
 				A73960271865DF26003BFA9E /* Foundation.framework */,
 				A73960291865DF26003BFA9E /* CoreGraphics.framework */,
 				A739602B1865DF26003BFA9E /* UIKit.framework */,
 				A73960461865DF26003BFA9E /* XCTest.framework */,
+				14076617C685412DA4BB781F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +125,12 @@
 		A739602D1865DF26003BFA9E /* ASAppLikeSiri2 */ = {
 			isa = PBXGroup;
 			children = (
+				A739605E1865E01F003BFA9E /* Model */,
 				A73960361865DF26003BFA9E /* ASAppDelegate.h */,
 				A73960371865DF26003BFA9E /* ASAppDelegate.m */,
 				A73960391865DF26003BFA9E /* Main.storyboard */,
-				A739603C1865DF26003BFA9E /* ASViewController.h */,
-				A739603D1865DF26003BFA9E /* ASViewController.m */,
+				A739603C1865DF26003BFA9E /* ASQAndAViewController.h */,
+				A739603D1865DF26003BFA9E /* ASQAndAViewController.m */,
 				A739603F1865DF26003BFA9E /* Images.xcassets */,
 				A739602E1865DF26003BFA9E /* Supporting Files */,
 			);
@@ -152,6 +166,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A739605E1865E01F003BFA9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A739605F1865E01F003BFA9E /* RequestManager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A739605F1865E01F003BFA9E /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				A73960601865E01F003BFA9E /* ASQAndAManager.h */,
+				A73960611865E01F003BFA9E /* ASQAndAManager.m */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A73960561865DF26003BFA9E /* Build configuration list for PBXNativeTarget "ASAppLikeSiri2" */;
 			buildPhases = (
+				71ADDAC1CCEB4BB0998D4B80 /* Check Pods Manifest.lock */,
 				A73960201865DF26003BFA9E /* Sources */,
 				A73960211865DF26003BFA9E /* Frameworks */,
 				A73960221865DF26003BFA9E /* Resources */,
+				9D8EAA7542444CC693513059 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +278,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71ADDAC1CCEB4BB0998D4B80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8EAA7542444CC693513059 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A73960201865DF26003BFA9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A73960381865DF26003BFA9E /* ASAppDelegate.m in Sources */,
-				A739603E1865DF26003BFA9E /* ASViewController.m in Sources */,
+				A739603E1865DF26003BFA9E /* ASQAndAViewController.m in Sources */,
 				A73960341865DF26003BFA9E /* main.m in Sources */,
+				A73960621865E01F003BFA9E /* ASQAndAManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +443,7 @@
 		};
 		A73960571865DF26003BFA9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71C717F501C48D6943D077F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +457,7 @@
 		};
 		A73960581865DF26003BFA9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71C717F501C48D6943D077F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +530,7 @@
 				A73960581865DF26003BFA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A73960591865DF26003BFA9E /* Build configuration list for PBXNativeTarget "ASAppLikeSiri2Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +539,7 @@
 				A739605B1865DF26003BFA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
